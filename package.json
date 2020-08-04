@@ -1,0 +1,21 @@
+{
+    "name": "blog-search",
+    "version": "0.1.0",
+    "description": "静态博客搜索",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "blog",
+        "search"
+    ],
+    "engines": {
+        "node": ">=12"
+    },
+    "author": "zcmimi",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "node-fetch": "^2.6.0"
+    }
+}
