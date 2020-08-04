@@ -46,7 +46,7 @@ async function search(text,typ=0){
 }
 /*------------------------------------------------------------*/
  
-const port=process.env.PORT||4000,host=process.env.HOST||'';
+const port=process.env.PORT||3000,host=process.env.HOST||'';
 const express=require('express'),app=express(),url=require('url');
 
 app.get('/',async function(req,res){
